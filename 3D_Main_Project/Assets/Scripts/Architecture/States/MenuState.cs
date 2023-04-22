@@ -8,7 +8,7 @@ namespace Architecture
     {
         public override void UpdateState()
         {
-            Debug.Log("Menu Satte");
+            Debug.Log("Menu State");
         }
     }
 }

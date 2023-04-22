@@ -8,7 +8,7 @@ namespace Architecture
     {
         public override void UpdateState()
         {
-            Debug.Log("Game Satte");
+            Debug.Log("Game State");
         }
     }
 }

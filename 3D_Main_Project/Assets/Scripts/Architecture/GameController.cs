@@ -22,7 +22,7 @@ namespace Architecture
 
         public void Update()
         {
-            //od?wie?anie
+            //odswiezanie
             currentState?.UpdateState();
             
         }
