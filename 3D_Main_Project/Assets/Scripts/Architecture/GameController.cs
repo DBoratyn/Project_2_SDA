@@ -1,6 +1,7 @@
 using Data;
 using System.Collections;
 using System.Collections.Generic;
+using UI;
 using UnityEngine;
 
 namespace Architecture
@@ -11,6 +12,14 @@ namespace Architecture
 
         private SaveSystem saveSystem;
         public SaveSystem SaveSystem => saveSystem;
+
+        [SerializeField]
+        private CrossyInput crossyInput;
+        public CrossyInput CrossyInput => crossyInput;
+
+        [SerializeField]
+        private MenuView menuView;
+        public MenuView MenuView => menuView;
 
         public void Start()
         {

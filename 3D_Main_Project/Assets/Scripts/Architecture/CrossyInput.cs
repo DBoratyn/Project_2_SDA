@@ -35,5 +35,12 @@ namespace Architecture {
                 Debug.Log("Move: " + val);
             }          
         }
+
+        public void ClearAllInputs()
+        {
+            IsStartPressed = null;
+            IsPausePressed = null;
+            IsMovePressed = null;
+        }
     }
 }
